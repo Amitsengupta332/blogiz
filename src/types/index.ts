@@ -8,3 +8,9 @@ export interface Blog {
   blog_image: string;
   total_likes: string;
 }
+
+export interface BlogId {
+    params: {
+        blogId: string;
+    }
+}
